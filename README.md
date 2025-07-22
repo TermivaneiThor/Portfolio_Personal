@@ -16,4 +16,3 @@ Este portfolio derivado mantiene la misma licencia [CC BY-NC 4.0](https://creati
 - **NC**: No puede usarse con fines comerciales.
 
 Este trabajo se presenta únicamente con fines personales y no comerciales.
-

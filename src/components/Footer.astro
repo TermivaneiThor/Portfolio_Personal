@@ -1,0 +1,33 @@
+---
+const currentYear = new Date().getFullYear()
+---
+
+<footer
+  class="opacity-80 m-4 min-[375px]:pl-4 md:pl-0 mt-16 w-full mx-auto container lg:max-w-4xl md:max-w-2xl mb-10 flex justify-center"
+>
+  <div
+    class="rounded-lg w-full max-w-screen-xl mx-auto md:flex md:items-center md:justify-between py-4"
+  >
+    <span class="text-sm sm:text-center text-zinc-800/90 dark:text-zinc-200/90"
+      >© {currentYear}
+      <a href="https://mancerasmirandaivan.notion.site/CV-Ivan-Manceras-Miranda-1253cff9628080edb70dd23c121eaa7f?pvs=74" target="_blank" class="hover:underline">Iván Manceras Miranda</a>. Portfolio personal sin fines comerciales.
+    </span>
+    <ul
+      class="flex flex-wrap items-center mt-3 text-sm font-medium dark:text-white/90 sm:mt-0"
+    >
+      <li>
+        <a href="/#sobre-mi" class="hover:underline me-4 md:me-6">Sobre mí</a>
+      </li>
+      <li>
+        <a id="contacto" href="mailto:mancerasmirandaivan@gmail.com" class="hover:underline">Contacto</a>
+      </li>
+    </ul>
+    <div class="text-sm mt-4 md:mt-0 dark:text-white/70">
+      <small>
+        Basado en la plantilla <a href="https://github.com/midudev/porfolio.dev" target="_blank" rel="noopener noreferrer">porfolio.dev</a>
+        de <a href="https://github.com/midudev" target="_blank" rel="noopener noreferrer">@midudev</a>.
+        Licencia <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a>.
+      </small>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,31 @@
+---
+import ExperienceItem from "./ExperienceItem.astro"
+const EXPERIENCE = [
+  {
+    date: "Próximamente en Septiembre de 2025...",
+    title: "Prácticas laborales como estudiante de Grado Superior en DAW",
+    company: "DigitechFP",
+    description:
+      "Actualmente me he graduado en este Grado Superior, a pesar de no haber realizado aún las prácticas, debido a una situación excepcional: cursé de forma simultánea todo el segundo año de DAW junto con la asignatura de Programación de primero de DAM, que tenía pendiente desde hace un par de años.",
+    link: "https://www.linkedin.com/in/mancerasmirandaivan/details/education/",
+  },
+  {
+    date: "Febrero 2024 - Abril 2024",
+    title: "Junior Software Web Developer",
+    company: "Empacthy",
+    description:
+      "Desarrollo completo de un MVP en formato de página web, participando activamente en la organización de tareas del equipo bajo la metodología SCRUM. Me encargué del desarrollo de la landing page del proyecto utilizando HTML, CSS y Sass, implementándola también como respaldo de seguridad. Además, utilicé Git y GitHub para el control de versiones y colaboré con mis compañeros en la mejora y desarrollo de sus respectivas tareas.",
+    link: "https://www.linkedin.com/in/mancerasmirandaivan/details/experience/",
+  },
+]
+---
+
+<ol class="relative mt-16">
+  {
+    EXPERIENCE.map((experience) => (
+      <li class="">
+        <ExperienceItem {...experience} />
+      </li>
+    ))
+  }
+</ol>
